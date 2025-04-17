@@ -9,17 +9,17 @@ type SkillCategory = {
 
 const skillCategories: SkillCategory[] = [
   {
-    name: "Programming",
+    name: "Programming Languages & Databases",
     icon: <Code className="w-6 h-6" />,
     skills: ["C/C++", "Go", "Java", "Python", "JavaScript", "TypeScript", "MySQL", "MongoDB", "PostgreSQL", "DynamoDB"],
   },
   {
-    name: "Frameworks & Software",
+    name: "Web Technologies",
     icon: <Zap className="w-6 h-6" />,
     skills: ["HTML", "Node.js", "React.js", "React Native", "Angular.js", "Next.js", "Vue.js", "Django", "GraphQL", "Flask", "REST"],
   },
   {
-    name: "Big Data & Frameworks",
+    name: "Frameworks & Libraries",
     icon: <Database className="w-6 h-6" />,
     skills: ["Spring Boot", "JPA", "Numpy", "Pandas", "SKLearn", "PySpark", "OpenCV", "PyTorch", "TensorFlow", "Redis", "Agile"],
   },
