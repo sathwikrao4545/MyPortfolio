@@ -22,7 +22,7 @@ const projects: Project[] = [
     ],
     image: "/uploads/robot.jpg",
     tags: ["LLM", "OpenAI GPT", "HuggingFace Hub", "Langchain", "API keys", "Streamlit Cloud"],
-    githubLink: "#",
+    githubLink: "https://github.com/sathwikrao4545/Q-A-Chatbot-Using-LLM",
   },
   {
     title: "Crime Analysis Using Hadoop and MapReduce",
@@ -32,7 +32,7 @@ const projects: Project[] = [
     ],
     image: "uploads/hadoop.png",
     tags: ["Hadoop", "MapReduce", "Big Data", "Crime Analysis", "VMs"],
-    githubLink: "#",
+    githubLink: "https://github.com/sathwikrao4545",
   },
   {
     title: "E-Commerce DevOps Implementation",
@@ -42,7 +42,7 @@ const projects: Project[] = [
     ],
     image: "uploads/devops.webp",
     tags: ["DevOps", "EKS", "Terraform", "CI/CD", "Java", "GitHub Actions", "Argo CD", "Route 53 DNS"],
-    githubLink: "#",
+    githubLink: "https://github.com/sathwikrao4545",
   },
   {
     title: "Restaurant Website",
@@ -53,7 +53,7 @@ const projects: Project[] = [
     image: "/uploads/restaurant.avif",
     tags: ["Next.js", "Figma", "A/B testing", "UI optimizations", "Google Analytics"],
     // liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/sathwikrao4545/IS601grp",
   },
   {
     title: "Personal Portfolio",
@@ -64,7 +64,7 @@ const projects: Project[] = [
     image: "/uploads/portfolio.jpg",
     tags: ["AWS S3", "Route 53", "ACM", "CloudFront", "GitHub Actions"],
     // liveLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/sathwikrao4545",
   },
 ];
 
