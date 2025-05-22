@@ -30,7 +30,7 @@ const experiences: Experience[] = [
     description: [
       "Developed a Python FastAPI /ingest/ocr endpoint with Tesseract OCR and OpenCV, processing 5,000 images/day at 700 ms avg. latency and achieved 98% recognition accuracy and cut manual entry errors by 90%.",
       "Designed partitioned PostgreSQL time-series schema handling 1M+ records/month with 200 ms queries (70% faster).",
-      "Developed real-time Power BI dashboards to give warehouses clear visibility into inbound/outbound traffic flows, dock utilization, and dwell-time hotspots, enabling proactive scheduling and resource allocation that reduced average truck dwell time by 15%."
+      "Developed real-time Power BI dashboards to give warehouses clear visibility into inbound/outbound traffic flows, dock utilization, and dwell-time hotspots, enabling proactive scheduling and resource allocation that reduced average truck dwell time by 15%.",
       "Wrote a pytest suite (unit & integration tests) with 95% coverage, integrated into our CI/CD pipeline, slashing OCR-related bugs by 60% and ensuring data integrity."
     ],
     // skills: ["MERN", "JMeter", "Postman", "Agile"],
