@@ -16,23 +16,24 @@ const experiences: Experience[] = [
     position: "Software Developer Intern",
     duration: "Jan 2025 - Present",
     description: [
-      "Developed a machine learning model using XGBoost and K-Means Clustering to analyze and predict patterns in Verizon Cloud Monitoring Platform (VCMP) data, achieving 85% accuracy in fault detection.",
-      "Processed and analyzed large-scale log data (39M+ rows) using PySpark on a High-Performance Computing (HPC) cluster, transforming unstructured JSON logs into actionable insights.",
-      "Optimized the data preprocessing pipeline to efficiently handle large-scale log data (50GB+), enabling structured analysis and reducing processing time.",
-      "Built an interactive dashboard for real-time model execution, reducing manual troubleshooting time by 40% and enhancing system monitoring."
+      " Built scalable PySpark pipelines to preprocess and transform 1TB+ of unstructured, noisy Telemetry JSON logs daily, enabling efficient downstream analytics and ML workflows.",
+      " Deployed SLURM-based scheduling in HPC environments to automate and parallelize ETL jobs for backfilling and data ingestion, significantly improving resource utilization and job throughput by 70%.",
+      "Achieved a 40% reduction in data processing time and a 95% data quality score by implementing feature engineering, filtering, and validation checks in distributed data pipelines.",
+      "Engineered log analysis pipelines using TF-IDF, SQL window functions, and Sequential pattern mining(PrefixSpan) to identify recurring failure patterns, reducing downtime by 40% and saving in operational costs."
     ],
-    skills: ["XGBoost", "K-Means", "PySpark", "HPC", "JSON", "Dashboard"],
+    // skills: ["XGBoost", "K-Means", "PySpark", "HPC", "JSON", "Dashboard"],
   },
   {
     company: "Rovasys",
     position: "Software Engineer",
     duration: "Jun 2022 - Jul 2023",
     description: [
-      "Developed and designed real time tracking and inventory features for a cloud based platform using the MERN stack, boosting scalability by 25% and increasing sales funnel by $1M.",
-      "Utilized tools like JMeter and Postman to test API response times, verifying a 25% improvement in system throughput by comparing load testing results before and after migrating to the new MERN stack architecture.",
-      "Collaborated with cross-functional teams in an agile environment to analyze requirements and drive design, development, testing, and deployment, ensuring timely delivery of the redesigned MERN stack application."
+      "Developed a Python FastAPI /ingest/ocr endpoint with Tesseract OCR and OpenCV, processing 5,000 images/day at 700 ms avg. latency and achieved 98% recognition accuracy and cut manual entry errors by 90%.",
+      "Designed partitioned PostgreSQL time-series schema handling 1M+ records/month with 200 ms queries (70% faster).",
+      "Developed real-time Power BI dashboards to give warehouses clear visibility into inbound/outbound traffic flows, dock utilization, and dwell-time hotspots, enabling proactive scheduling and resource allocation that reduced average truck dwell time by 15%."
+      "Wrote a pytest suite (unit & integration tests) with 95% coverage, integrated into our CI/CD pipeline, slashing OCR-related bugs by 60% and ensuring data integrity."
     ],
-    skills: ["MERN", "JMeter", "Postman", "Agile"],
+    // skills: ["MERN", "JMeter", "Postman", "Agile"],
   },
 ];
 
